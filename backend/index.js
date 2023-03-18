@@ -159,6 +159,9 @@ app.get('/api/piechart/:month', async (req, res) => {
     res.status(200).send(categoryDataResponse);
 });
 
+
+
+
 // data from all 3 APIs
 app.get('/api/alldata/:month', async (req, res) => {
     const month = parseInt(req.params.month);
